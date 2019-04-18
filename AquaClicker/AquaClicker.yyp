@@ -159,6 +159,22 @@
             }
         },
         {
+            "Key": "ce8c9e9b-a2e7-4332-a331-40fab22d4fce",
+            "Value": {
+                "id": "ef002c01-e323-4b35-9027-97a243e69699",
+                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d5152781-0848-456f-afbf-3a13663379b9",
+            "Value": {
+                "id": "0bd92de2-4dcc-44e8-9d2b-b2998de29d24",
+                "resourcePath": "objects\\GameManager\\GameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d854c613-8b64-4dd9-b280-0a6fc981aa9d",
             "Value": {
                 "id": "6ad81c93-3242-458e-8628-2557110823b9",
