@@ -47,10 +47,50 @@
             }
         },
         {
+            "Key": "116697ec-0d8b-4fe7-92e3-73a070f0d416",
+            "Value": {
+                "id": "bb0505f2-e849-4cfb-8f22-ce7a8e97ede6",
+                "resourcePath": "scripts\\scr_Building1\\scr_Building1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "16ec06b0-aa68-40ab-9e7b-f173c397b144",
             "Value": {
                 "id": "a61fe08b-5416-4e60-b60f-10d25d1b8f05",
                 "resourcePath": "views\\16ec06b0-aa68-40ab-9e7b-f173c397b144.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "21fa7f66-de11-411e-bf16-cf6851d9969d",
+            "Value": {
+                "id": "671f2350-738b-49d2-9812-c19b45359554",
+                "resourcePath": "fonts\\fnt_BuildingButton\\fnt_BuildingButton.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "2358b196-9f5f-4d4c-97a5-5f778a800412",
+            "Value": {
+                "id": "a3c92971-7362-49aa-8a0c-cfbeca3770fa",
+                "resourcePath": "scripts\\scr_Building2\\scr_Building2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2366d18c-38a7-49a2-ba71-9473caadc0d7",
+            "Value": {
+                "id": "f8ceaddf-941c-4f11-9bff-17743e2f0d9c",
+                "resourcePath": "views\\2366d18c-38a7-49a2-ba71-9473caadc0d7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "30dd63e1-b7bd-4331-a9e7-d27d759adaa9",
+            "Value": {
+                "id": "48e54e7c-e47d-4a99-a326-fe7145c1ed90",
+                "resourcePath": "views\\30dd63e1-b7bd-4331-a9e7-d27d759adaa9.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -67,6 +107,14 @@
             "Value": {
                 "id": "e9b145f3-250e-453b-84da-668c5d1f8eb2",
                 "resourcePath": "views\\40a95a2c-8e2b-4223-ba42-5ce74022042f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "41cc5952-1ec5-48c6-9015-9065ed4fcf76",
+            "Value": {
+                "id": "ef6a4c87-5266-4dbb-ab2f-9ae6a4c5f276",
+                "resourcePath": "views\\41cc5952-1ec5-48c6-9015-9065ed4fcf76.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -107,6 +155,14 @@
             "Value": {
                 "id": "6637b073-611b-42f2-8e76-8eb27d538925",
                 "resourcePath": "views\\58f4d87f-70d5-42e5-8859-76dd3343eb81.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5c8bf163-ca84-48e7-927c-fdca0332f2c2",
+            "Value": {
+                "id": "bd454e6f-a806-4b90-a811-c091e25b6e7f",
+                "resourcePath": "views\\5c8bf163-ca84-48e7-927c-fdca0332f2c2.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -159,10 +215,18 @@
             }
         },
         {
+            "Key": "a1ecced4-c537-4639-a6c3-072aa634ee07",
+            "Value": {
+                "id": "535f2b34-9f34-4bfb-a807-08cc18a8f250",
+                "resourcePath": "sprites\\spr_BuildingButtonBackground\\spr_BuildingButtonBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b887fa9e-b3b2-4475-a253-ec4518d2a6e8",
             "Value": {
                 "id": "ce295a22-66b7-4622-8d28-b549f7e4bc22",
-                "resourcePath": "objects\\obj_TextHandler\\obj_TextHandler.yy",
+                "resourcePath": "objects\\obj_DrawCurrentCurrency\\obj_DrawCurrentCurrency.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -194,7 +258,7 @@
             "Key": "d5152781-0848-456f-afbf-3a13663379b9",
             "Value": {
                 "id": "0bd92de2-4dcc-44e8-9d2b-b2998de29d24",
-                "resourcePath": "objects\\obj_GameManager\\obj_GameManager.yy",
+                "resourcePath": "objects\\obj_BuildingButton\\obj_BuildingButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -225,7 +289,9 @@
     ],
     "script_order": [
         "737c1355-0b8b-419e-b5d0-14188c2fba21",
-        "e1002f2b-37be-4478-a230-296050e8fa9b"
+        "e1002f2b-37be-4478-a230-296050e8fa9b",
+        "116697ec-0d8b-4fe7-92e3-73a070f0d416",
+        "2358b196-9f5f-4d4c-97a5-5f778a800412"
     ],
     "tutorial": ""
 }

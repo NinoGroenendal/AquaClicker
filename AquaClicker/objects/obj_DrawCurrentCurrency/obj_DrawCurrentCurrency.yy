@@ -2,7 +2,7 @@
     "id": "b887fa9e-b3b2-4475-a253-ec4518d2a6e8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_TextHandler",
+    "name": "obj_DrawCurrentCurrency",
     "eventList": [
         {
             "id": "39a2ef6d-67da-4189-96af-e514110939ce",

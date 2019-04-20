@@ -84,7 +84,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "1",
             "varName": "building1Amount",
             "varType": 0
         },
@@ -171,6 +171,34 @@
             "value": "0",
             "varName": "building2Cost",
             "varType": 0
+        },
+        {
+            "id": "ef2b4acc-5913-4866-b6ac-64a19a837ab7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "buildingsTotal",
+            "varType": 0
+        },
+        {
+            "id": "004ad80a-ca4a-4d99-bc40-de91c240024c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "buildingCosts",
+            "varType": 6
         }
     ],
     "solid": false,
