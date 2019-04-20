@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06553d06-6291-4631-ba07-1df02824ce52",
+            "Value": {
+                "id": "94a2923c-5b48-4d8d-a05b-4a16170a2c0b",
+                "resourcePath": "fonts\\fnt_Number\\fnt_Number.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "115680f5-5443-44c2-9f9c-97a8d8daf2a3",
             "Value": {
                 "id": "f509ae7a-58e9-4945-b4f9-1fa2fa9afbe6",
@@ -111,6 +119,22 @@
             }
         },
         {
+            "Key": "737c1355-0b8b-419e-b5d0-14188c2fba21",
+            "Value": {
+                "id": "cb4730bc-3d80-493c-8b0e-ed296bb7c951",
+                "resourcePath": "scripts\\scr_BaseBuildingVariables\\scr_BaseBuildingVariables.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "869e420e-cb7a-4915-90b3-ce3e6b7b3169",
+            "Value": {
+                "id": "5bc7eae1-e9fb-49e8-827e-83bba7135870",
+                "resourcePath": "objects\\obj_IncomeManager\\obj_IncomeManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "88404108-c95a-48ef-bab9-2f7bdc5d7769",
             "Value": {
                 "id": "28a8b11d-3019-444a-be20-7b24f683a0e1",
@@ -132,6 +156,14 @@
                 "id": "b2c68ff0-7386-4581-8993-dfead49c205e",
                 "resourcePath": "views\\975ce7b6-f320-4604-89bb-dcc14e5afc10.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b887fa9e-b3b2-4475-a253-ec4518d2a6e8",
+            "Value": {
+                "id": "ce295a22-66b7-4622-8d28-b549f7e4bc22",
+                "resourcePath": "objects\\obj_TextHandler\\obj_TextHandler.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -159,18 +191,10 @@
             }
         },
         {
-            "Key": "ce8c9e9b-a2e7-4332-a331-40fab22d4fce",
-            "Value": {
-                "id": "ef002c01-e323-4b35-9027-97a243e69699",
-                "resourcePath": "scripts\\script0\\script0.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "d5152781-0848-456f-afbf-3a13663379b9",
             "Value": {
                 "id": "0bd92de2-4dcc-44e8-9d2b-b2998de29d24",
-                "resourcePath": "objects\\GameManager\\GameManager.yy",
+                "resourcePath": "objects\\obj_GameManager\\obj_GameManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -189,10 +213,19 @@
                 "resourcePath": "views\\db519d2f-6bd2-42f8-acce-ac913247c4f6.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "e1002f2b-37be-4478-a230-296050e8fa9b",
+            "Value": {
+                "id": "070eed27-125a-48d5-a7b4-b0c262cd6d74",
+                "resourcePath": "scripts\\scr_IncomeCalc\\scr_IncomeCalc.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "737c1355-0b8b-419e-b5d0-14188c2fba21",
+        "e1002f2b-37be-4478-a230-296050e8fa9b"
     ],
     "tutorial": ""
 }
