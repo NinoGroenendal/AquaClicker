@@ -2,7 +2,7 @@
     "id": "a1ecced4-c537-4639-a6c3-072aa634ee07",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_BuildingButtonBackground",
+    "name": "spr_button",
     "For3D": false,
     "HTile": false,
     "VTile": false,

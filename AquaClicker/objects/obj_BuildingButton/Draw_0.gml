@@ -11,4 +11,4 @@ draw_set_color(c_white);
 
 draw_set_halign(fa_left);
 draw_set_color(textColor);
-draw_text(x +35, y + buttonCenterY+18, "Cost: "+ string(obj_IncomeManager.buildingCosts[buildingNumber]));
+draw_text(x +35, y + buttonCenterY+18, "Cost: "+ string(obj_BuildingManager.buildingCosts[buildingNumber]));
