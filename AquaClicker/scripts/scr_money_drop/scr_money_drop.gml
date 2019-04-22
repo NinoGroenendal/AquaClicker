@@ -1,0 +1,1 @@
+instance_create_layer(x,y,"Money_Instances",obj_money);
