@@ -125,6 +125,20 @@
             "value": "0",
             "varName": "currency_current",
             "varType": 0
+        },
+        {
+            "id": "5a73aa57-f825-432b-aa4c-e0a82614e499",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "currency_min",
+            "varType": 0
         }
     ],
     "solid": false,

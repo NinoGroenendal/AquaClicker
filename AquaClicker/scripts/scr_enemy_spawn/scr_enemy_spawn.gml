@@ -1,3 +1,5 @@
+//On script load
+obj_global_enemy_sprite.spawn_timer_current = obj_global_enemy_sprite.spawn_timer;
 randomize();
 //spawn random normal
 if(!obj_wave_manager.wave_boss){

@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "a8aa6d0d-351d-4c31-8164-c0204b2509b8"
+        },
+        {
+            "id": "bc66ff0b-abc8-4e40-b60e-314b72b27092",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a8aa6d0d-351d-4c31-8164-c0204b2509b8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -68,6 +78,34 @@
             "resourceFilter": 1023,
             "value": "0.2",
             "varName": "hurt_cooldown",
+            "varType": 0
+        },
+        {
+            "id": "8fc53999-bf5f-4ddd-bece-e05670fa61d4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "spawn_timer",
+            "varType": 0
+        },
+        {
+            "id": "e61da95e-3bb5-4860-a0b2-ba51b54d45a8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "spawn_timer_current",
             "varType": 0
         }
     ],

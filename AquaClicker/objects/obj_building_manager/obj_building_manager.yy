@@ -196,7 +196,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "1",
             "varName": "clickTotalDamage",
             "varType": 0
         }

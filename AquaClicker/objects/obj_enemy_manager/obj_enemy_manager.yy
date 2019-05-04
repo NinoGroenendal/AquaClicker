@@ -95,6 +95,20 @@
             "varType": 6
         },
         {
+            "id": "6fde1d11-cdb7-4c81-9b1f-62c30d80537a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "normal_enemy_sprite_spawn",
+            "varType": 6
+        },
+        {
             "id": "852b340d-a532-4b02-9f39-f00710bdad40",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -148,6 +162,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "boss_enemy_sprite_dead",
+            "varType": 6
+        },
+        {
+            "id": "8e04c122-8e9c-4b59-9483-3b1d2f609f17",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "boss_enemy_sprite_spawn",
             "varType": 6
         },
         {
@@ -260,6 +288,34 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "health_boss_multiplier",
+            "varType": 0
+        },
+        {
+            "id": "599526bf-8dd0-41fa-a49e-96211f3d5c68",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "normal_enemy_count",
+            "varType": 0
+        },
+        {
+            "id": "473aa1a0-fa04-408f-b947-8df9ca05c216",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "boss_enemy_count",
             "varType": 0
         }
     ],

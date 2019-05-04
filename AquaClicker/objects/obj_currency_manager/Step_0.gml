@@ -7,7 +7,13 @@ if(instance_number(obj_money) >= 4){
 
 //currency_worth_min = currency_worth_base_min + (obj_wave_manager.wave_enemy_current/ 15);
 
-currency_worth_min = currency_worth_base_min + (obj_enemy_manager.health_max / 16);
-currency_worth_max = currency_worth_base_min + (obj_enemy_manager.health_max / 13);
+currency_worth_min = (obj_enemy_manager.health_max / 16);
+currency_worth_max = (obj_enemy_manager.health_max / 13);
+if(currency_worth_min <= currency_min){
+	currency_worth_min = currency_min;
+}
+if(currency_worth_max <= currency_min){
+	currency_worth_max = currency_min;
+}
 
 currency_worth = irandom_range(currency_worth_min, currency_worth_max);

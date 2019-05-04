@@ -8,7 +8,6 @@ if(health_current <= 0){
 			if(obj_wave_manager.wave_enemy_current >= obj_wave_manager.wave_enemy_needed){
 				obj_wave_manager.wave_new = true;
 				scr_enemy_spawn();	
-				
 			} 
 			else{
 				scr_enemy_spawn();	
