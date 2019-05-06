@@ -6,7 +6,7 @@
     "children": [
         "0b9cb9bc-2d90-4776-8c5c-5dacf992ea1f",
         "c08ceeed-6572-49e7-a413-e3303e7dffb6",
-        "196c083f-d840-4bd6-b86c-e5121ecec0a7"
+        "cbc6743a-78bf-46e3-95c1-c78d66474dc2"
     ],
     "filterType": "GMSprite",
     "folderName": "dead",

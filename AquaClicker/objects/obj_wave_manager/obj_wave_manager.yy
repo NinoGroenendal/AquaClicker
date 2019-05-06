@@ -43,20 +43,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "15a10034-cdeb-4ccb-af5e-8b7e3a112128",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "wave_current",
-            "varType": 0
-        },
-        {
             "id": "da173ef7-5033-4324-9aa4-a5fff8cbd451",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -67,7 +53,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "wave_max",
+            "varName": "level_max",
             "varType": 0
         },
         {
@@ -81,7 +67,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "wave_new",
+            "varName": "level_new",
             "varType": 3
         },
         {
@@ -95,7 +81,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "wave_boss",
+            "varName": "level_boss",
             "varType": 3
         },
         {
@@ -109,7 +95,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "wave_calc",
+            "varName": "level_boss_counter",
             "varType": 0
         },
         {
@@ -152,6 +138,20 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "wave_enemy_current_max",
+            "varType": 0
+        },
+        {
+            "id": "39b7073f-2894-4808-8657-525b477f9c26",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "level_current",
             "varType": 0
         }
     ],

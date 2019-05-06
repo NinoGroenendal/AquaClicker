@@ -107,6 +107,34 @@
             "value": "0",
             "varName": "spawn_timer_current",
             "varType": 0
+        },
+        {
+            "id": "4becd8cb-58d1-4918-9795-9dfc1409d723",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "death_timer_current",
+            "varType": 0
+        },
+        {
+            "id": "90f49208-6854-411c-b092-cb330583e5bb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "death_timer",
+            "varType": 0
         }
     ],
     "solid": false,

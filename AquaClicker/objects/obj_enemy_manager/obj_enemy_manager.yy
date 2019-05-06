@@ -317,6 +317,34 @@
             "value": "3",
             "varName": "boss_enemy_count",
             "varType": 0
+        },
+        {
+            "id": "85c2e02a-f928-4b43-a392-6b727abee8d1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "health_wave",
+            "varType": 0
+        },
+        {
+            "id": "cef8f11d-7999-4567-94ea-beb32b4af8c7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "health_level",
+            "varType": 0
         }
     ],
     "solid": false,

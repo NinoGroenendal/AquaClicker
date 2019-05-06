@@ -1,3 +1,3 @@
 /// @desc init
 
-wave_new = true;
+level_new = true;

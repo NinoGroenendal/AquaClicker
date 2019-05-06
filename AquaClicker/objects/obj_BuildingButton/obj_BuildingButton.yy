@@ -101,20 +101,6 @@
             "varType": 7
         },
         {
-            "id": "7eeb30ef-9774-4cbc-ab83-577810a7736b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "scr_Building1",
-            "varName": "onClickAction",
-            "varType": 5
-        },
-        {
             "id": "ef21c67b-9707-4106-9c9b-4f9952f408ed",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -125,7 +111,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "1",
-            "varName": "buildingNumber",
+            "varName": "building_number",
             "varType": 0
         }
     ],

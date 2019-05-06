@@ -5,16 +5,6 @@
     "name": "obj_currency_manager",
     "eventList": [
         {
-            "id": "1e6d080b-fe0b-4755-8f6d-53b7e7787d5d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "b6642b6d-558a-4bc6-b489-a92aeb1dc4f8"
-        },
-        {
             "id": "e63804d7-75cd-4aed-bc41-bf8dfc63e36e",
             "modelName": "GMEvent",
             "mvc": "1.0",

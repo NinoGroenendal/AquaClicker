@@ -1,34 +1,34 @@
 /// @desc
-if(wave_new){
+if(level_new){
 	//check if we must spawn a boss in each 5 levels
-	wave_calc++;
-	if(wave_calc == 5){
-		wave_boss = true;
+	level_boss_counter++;
+	if(level_boss_counter == 5){
+		level_boss = true;
 	}
 	//check if we must spawn a boss in each 10 levels
-	else if(wave_calc == 10){
-		wave_boss = true;
-		wave_calc = 0;
+	else if(level_boss_counter == 10){
+		level_boss = true;
+		level_boss_counter = 0;
 	}
 	else{
-		wave_boss = false;
+		level_boss = false;
 	}
 	//set new current wave
-	wave_current++;
+	level_current++;
 	
-	//set new highest wave if current wave exceeds highest level
-	if(wave_current > wave_max){
-		wave_max = wave_current;	
+	//set new highest level if current wave exceeds highest level
+	if(level_current > level_max){
+		level_max = level_current;	
 	}	
 	
-	wave_new = false;
+	level_new = false;
 	wave_enemy_current = 1;
 
 	scr_enemy_health();
 	obj_enemy_manager.health_current = obj_enemy_manager.health_max;
 }
 //enemy waves per wave needed
-if(wave_boss){
+if(level_boss){
 	wave_enemy_needed = 1;
 } else {
 	wave_enemy_needed = wave_enemy_current_max;	

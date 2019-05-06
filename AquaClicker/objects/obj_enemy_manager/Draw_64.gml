@@ -3,11 +3,11 @@
 	draw_set_color(c_white);
     draw_set_font(fnt_enemy_name);
     draw_set_halign(fa_middle);
-	if(!obj_wave_manager.wave_boss){
+	if(!obj_wave_manager.level_boss){
 		rnd = obj_enemy_manager.normal_enemy_random;
 		draw_text(obj_global_enemy_name.x,obj_global_enemy_name.y, string(obj_enemy_manager.normal_enemy_name[rnd]));
 	} 
-	else if(obj_wave_manager.wave_boss) { 
+	else if(obj_wave_manager.level_boss) { 
 		rnd = obj_enemy_manager.boss_enemy_random;
 		draw_text(obj_global_enemy_name.x,obj_global_enemy_name.y, string(obj_enemy_manager.boss_enemy_name[rnd]));
 	}

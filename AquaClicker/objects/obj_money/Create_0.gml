@@ -1,8 +1,10 @@
-/// @desc Follow Path on create
+/// @desc give obj_money velocity
 
-//fill list with paths for the money drops
+var enemy_position = instance_find(obj_global_enemy_sprite,0);
 
+var grid_max_y = enemy_position.y + enemy_position.sprite_height;
 
-rnd = irandom_range(1,array_length_1d(obj_currency_manager.currency_drop_paths) - 1);
+y1 = irandom_range(grid_max_y +4, grid_max_y - 4);
 
-path_start(obj_currency_manager.currency_drop_paths[rnd],3,path_action_stop,true)
+vel_x = random_range(min_vel_x, max_vel_x);
+show_debug_message(vel_x);
