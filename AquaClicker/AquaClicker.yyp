@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1427028e-582a-49d0-842d-b913a2d6cdaa",
+            "Value": {
+                "id": "043589c9-ba8b-40af-bd9a-ba2b4077a0af",
+                "resourcePath": "objects\\obj_global_enemy_healthbar\\obj_global_enemy_healthbar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16ec06b0-aa68-40ab-9e7b-f173c397b144",
             "Value": {
                 "id": "a61fe08b-5416-4e60-b60f-10d25d1b8f05",
@@ -140,6 +148,14 @@
                 "id": "671f2350-738b-49d2-9812-c19b45359554",
                 "resourcePath": "fonts\\fnt_BuildingButton\\fnt_BuildingButton.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "22f3f766-d6eb-4567-bfa2-6dea294dbfb5",
+            "Value": {
+                "id": "9709a6e0-59e1-4292-a99c-0d7673bf9c72",
+                "resourcePath": "sprites\\spr_enemy_pedestal\\spr_enemy_pedestal.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -218,7 +234,7 @@
             "Key": "3fb0eb95-43fa-4119-9c2a-54414c2208e7",
             "Value": {
                 "id": "ba18e803-e629-467f-9044-06f0c9e83f63",
-                "resourcePath": "objects\\obj_global_enemy_healthbar\\obj_global_enemy_healthbar.yy",
+                "resourcePath": "objects\\obj_global_enemy_pedestal\\obj_global_enemy_pedestal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -394,7 +410,7 @@
             "Key": "737c1355-0b8b-419e-b5d0-14188c2fba21",
             "Value": {
                 "id": "cb4730bc-3d80-493c-8b0e-ed296bb7c951",
-                "resourcePath": "scripts\\scr_building_variables\\scr_building_variables.yy",
+                "resourcePath": "scripts\\scr_building_settings\\scr_building_settings.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -487,18 +503,18 @@
             }
         },
         {
-            "Key": "974ba20b-8584-4f6d-a0e8-91d3713ceff3",
-            "Value": {
-                "id": "835cc278-eeda-46c6-a77b-b2840d4befd3",
-                "resourcePath": "objects\\obj_wave_level_background\\obj_wave_level_background.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "975ce7b6-f320-4604-89bb-dcc14e5afc10",
             "Value": {
                 "id": "b2c68ff0-7386-4581-8993-dfead49c205e",
                 "resourcePath": "views\\975ce7b6-f320-4604-89bb-dcc14e5afc10.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98c0e13d-3ed9-4546-85d1-2bb09f72a2a4",
+            "Value": {
+                "id": "46d62886-9280-45b9-a955-204f09ac0e7b",
+                "resourcePath": "views\\98c0e13d-3ed9-4546-85d1-2bb09f72a2a4.yy",
                 "resourceType": "GMFolder"
             }
         },

@@ -121,6 +121,20 @@
             "value": "-0.5",
             "varName": "min_vel_x",
             "varType": 0
+        },
+        {
+            "id": "32860e15-07c0-4de6-948d-34b4075ae071",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "coin_worth",
+            "varType": 0
         }
     ],
     "solid": false,

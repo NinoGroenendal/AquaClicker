@@ -1,6 +1,5 @@
 /// @desc velocity/gravity update
 
-
 if(y <= y1){
 	spawn_vel_y -= 4.00 / room_speed;
 	y = y - spawn_vel_y;
@@ -8,3 +7,4 @@ if(y <= y1){
 } else {
 	spawn_vel_y = 0;
 }
+

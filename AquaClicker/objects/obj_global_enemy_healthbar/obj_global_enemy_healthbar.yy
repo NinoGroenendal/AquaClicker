@@ -1,18 +1,18 @@
 {
-    "id": "3fb0eb95-43fa-4119-9c2a-54414c2208e7",
+    "id": "1427028e-582a-49d0-842d-b913a2d6cdaa",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_global_enemy_healthbar",
     "eventList": [
         {
-            "id": "9c147583-79c0-4f89-9e7a-21bc56e62266",
+            "id": "788d74fe-c2e2-405f-9957-9accccf4b771",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "3fb0eb95-43fa-4119-9c2a-54414c2208e7"
+            "eventtype": 8,
+            "m_owner": "1427028e-582a-49d0-842d-b913a2d6cdaa"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,8 +31,23 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "689923db-d888-4f34-b162-4faa8a858169",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "draw_width",
+            "varType": 0
+        }
+    ],
     "solid": false,
-    "spriteId": "a1ecced4-c537-4639-a6c3-072aa634ee07",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

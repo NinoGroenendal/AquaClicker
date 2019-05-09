@@ -1,4 +1,4 @@
-var building_tab_offset_x = 30;
+var building_tab_offset_x = 0;
 var building_tab_offset_y = -20;
 
 if(instance_exists(obj_building_tab)){

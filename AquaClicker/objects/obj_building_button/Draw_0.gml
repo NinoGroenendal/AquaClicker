@@ -12,18 +12,22 @@ draw_sprite(sprite_index, image_index, x - camera_get_view_x(view_camera[0]), y 
 
 draw_set_font(fnt_BuildingButton);
 draw_set_color(textColor);
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
-draw_text(x + buttonCenterX, y + buttonCenterY - local_offset_y, buttonText);
+
+//draw_text_transformed(x + 35, y + buttonCenterY - 10 - local_offset_y, string(obj_building_manager.building_name[building_number]),0.06,0.06,0);
+draw_text(x + 35, y + buttonCenterY - 10 - local_offset_y, string(obj_building_manager.building_name[building_number]));
 draw_set_color(c_white);
+
 
 draw_set_font(fnt_BuildingButton);
 draw_set_halign(fa_left);
 draw_set_color(textColor);
-draw_text(x +35, y + buttonCenterY + 18 - local_offset_y, "Cost: "+ string(obj_building_manager.building_each_current_cost[building_number]));
+draw_text(x + 35, y + buttonCenterY + 18 - local_offset_y, "Cost: "+ string(obj_building_manager.building_each_current_cost[building_number]));
+
 
 draw_set_font(fnt_building_amount);
 draw_set_halign(fa_right);
 draw_set_color(textColor);
-draw_text(x +buttonCenterX+140, y + buttonCenterY + 5 - local_offset_y, string(obj_building_manager.building_each_amount[building_number]));
+draw_text(x +buttonCenterX + 70, y + buttonCenterY + 15 - local_offset_y, "Lvl "+  string(obj_building_manager.building_each_amount[building_number]));
 surface_reset_target();

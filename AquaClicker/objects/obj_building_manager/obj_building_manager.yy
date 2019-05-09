@@ -195,6 +195,20 @@
             "value": "0",
             "varName": "building_each_amount",
             "varType": 6
+        },
+        {
+            "id": "961010ca-bee7-4ae9-81a9-d9f0aee501ae",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "building_name",
+            "varType": 6
         }
     ],
     "solid": false,
